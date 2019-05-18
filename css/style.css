@@ -1,0 +1,275 @@
+body{
+
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+body{
+  max-width: 2000px;
+}
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.ba-header{
+	background-image: url("../img/Photo-Overlay.png");
+  background-size: cover;
+  background-position: center;
+  width: 2000px;
+}
+.logo{
+  display: block; 
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.ba-title{
+  font-size: 60px;
+  font-family: 'Cinzel Decorative', cursive;
+  color: rgb(255, 255, 255);
+  line-height: 1;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.ba-slogan{
+   font-size: 32px;
+  font-family: 'Cinzel Decorative', cursive;
+  color: rgb(255, 255, 255);
+  line-height: 1;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 35px;
+}
+.ba-autor{
+  font-size: 24px;
+  font-style: italic;
+  font-family: "Amiri", serif;
+  color: rgb(205, 179, 120);
+  line-height: 1.25;
+  text-align: center;
+}
+h1:before{
+	content: "";
+	width: 
+}
+.scroll{
+  font-size: 16px;
+  font-family: "Amiri";
+  color: rgb(205, 179, 120);
+  line-height: 1.872;
+  text-align: center;
+  padding-top: 330px;
+  margin: 0;
+}
+.btn-scroll{
+    width: 20px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 100px; 
+}
+.container{
+  background-color: #1a1c0f;
+  position: relative;
+  height: 800px;
+  width: 2000px;
+}
+.man-beer{
+  position: absolute;
+  right: 0;
+  top: -20px;
+  z-index: 1;
+}
+.bottle{
+  position: absolute;
+  z-index: 3;
+  bottom: -150px;
+  right: 460px;
+}
+.con-title{
+  font-size: 72px;
+  font-family: "CinzelDecorative";
+  color: rgb(255, 255, 255);
+  line-height: 0.833;
+  font-weight: lighter;
+  margin: 0;
+  padding-left: 220px;
+  padding-top: 100px;
+  text-transform: uppercase;
+}
+.con-about{
+  font-size: 24px;
+  font-family: "Amiri";
+  color: rgb(205, 179, 120);
+  line-height: 1.2;
+  font-weight: normal;
+  padding-left: 220px;
+  padding-bottom: 100px;
+  margin: 25px 0 0;
+}
+.zeus{
+  width: 1725px;
+  background-image: url(../img/Box.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 2;
+}
+.zeus-title{
+  font-size: 72px;
+  font-family: "CinzelDecorative";
+  color: rgb(205, 179, 120);
+  line-height: 0.833;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 100px 0 50px 220px;
+}
+.zeus-about{
+  font-size: 24px;
+  font-family: "Amiri";
+  color: rgb(180, 186, 152);
+  line-height: 2;
+  width: 1150px;
+  font-weight: normal;
+  margin: 0;
+  padding-left: 220px;
+  padding-bottom: 50px;
+}
+.btn-zeus{
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(64, 68, 41);
+  background-color: rgb(39, 42, 24);
+  color: #fff;
+  text-transform: uppercase;
+  width: 226px;
+  height: 61px;
+  margin-bottom: 90px;
+  margin-left: 220px;
+}
+.lorem{
+  background-image: url(../img/Photo.png);
+  height: 885px;
+  width: 2000px;
+}
+.lorem-title{
+  font-size: 60px;
+  font-family:  "CinzelDecorative";
+  color: rgb(26, 28, 15);
+  line-height: 1.2;
+  margin: 0;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-left: 1180px;
+  padding-top: 320px;
+}
+.drink{
+  background-image: url(../img/Phon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 2000px;
+  height: 3500px;
+  position: relative;
+}
+.quality{
+  font-size: 60px;
+  font-family:  'Cinzel Decorative', cursive;
+  color: rgb(205, 179, 120);
+  line-height: 1.2;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 150px 0 100px 220px;
+  width: 679px;
+}
+.drink-about{
+  font-size: 24px;
+  font-family: "Amiri";
+  color: rgb(180, 186, 152);
+  line-height: 2;
+  width: 900px;
+  padding-left: 220px;
+}
+.bottle-circle{
+  position: absolute;
+  right: 0;
+  top: -150px;
+}
+.start{
+  font-size: 72px;
+  font-family: "CinzelDecorative";
+  color: rgb(205, 179, 120);
+  line-height: 0.833;
+  text-align: center;
+  font-weight: 100;
+  margin: 0;
+  text-transform: uppercase;
+  padding-top: 280px;
+}
+.beer{
+  font-size: 24px;
+  font-family: "Amiri";
+  color: rgb(180, 186, 152);
+  line-height: 2;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.btn-drink{
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(64, 68, 41);
+  background-color: rgb(26, 25, 14);
+  width: 226px;
+  height: 61px;
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
